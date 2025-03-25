@@ -17,7 +17,6 @@
   "scripts": {
     "start": "tsdx watch",
     "build": "node ./scripts/build.js",
-    "prepare": "npm run build",
     "build:node": "tsdx build --target node --name TOS --tsconfig tsconfig-build.json",
     "build:browser": "tsdx build --format cjs,esm,umd --name TOS --tsconfig tsconfig-build.json",
     "build:proxy": "tsc --esModuleInterop --declaration --outDir ./out ./src/proxy.ts",
