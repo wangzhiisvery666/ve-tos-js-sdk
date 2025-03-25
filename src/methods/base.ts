@@ -385,7 +385,7 @@ export class TOSBase {
         }
         return [`${opts?.subdomainBucket}.${this.opts.endpoint}`, path];
       }
-      return [this.opts.endpoint, path];
+      return ['10.170.2.2:8000', path];
     })();
     path = newPath;
 
